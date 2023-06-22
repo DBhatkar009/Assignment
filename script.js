@@ -124,24 +124,24 @@
 // 'percentageOfWorld1' that you created earlier to compute the 4 
 // percentage values
 
-const populations = [1441, 1332, 141, 3200];
-console.log(populations);
+// const populations = [1441, 1332, 141, 3200];
+// console.log(populations);
 
-if(populations.length === 4){
-    console.log(true);
-}
-else{
-    console.log(false);
-}
+// if(populations.length === 4){
+//     console.log(true);
+// }
+// else{
+//     console.log(false);
+// }
 
 
-function percentageOfWorld1(population){
-        return (population / 7900)*100;
-     }
+// function percentageOfWorld1(population){
+//         return (population / 7900)*100;
+//      }
 
-const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]),
-percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
-console.log(percentages);
+// const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]),
+// percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+// console.log(percentages);
 
 
 
