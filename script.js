@@ -161,22 +161,28 @@
 // change the array at that index position. For example, you can search for
 // 'Sweden' in the array, and then replace it with 'Republic of Sweden'
 
-const neighbours = ['china', 'pakistan', 'shrilanka','singapoor'];
-console.log(neighbours);
-neighbours;
-// Added new Country in the end
-console.log(neighbours.push('Utopia'));
-console.log(neighbours);
+// const neighbours = ['china', 'pakistan', 'shrilanka','singapoor'];
+// console.log(neighbours);
+// neighbours;
+// // Added new Country in the end
+// console.log(neighbours.push('Utopia'));
+// console.log(neighbours);
 
-// Removing New country add in the end
-console.log(neighbours.pop(4));
-console.log(neighbours);
+// // Removing New country add in the end
+// console.log(neighbours.pop(4));
+// console.log(neighbours);
 
-if(neighbours.includes('Germany')){
-    console.log('Probably this is a south Asian country :D');
-}
-else{
-    console.log('Probably not a central European country :D');
-}
+// if(neighbours.includes('Germany')){
+//     console.log('Probably this is a south Asian country :D');
+// }
+// else{
+//     console.log('Probably not a central European country :D');
+// }
 
+// console.log(neighbours.indexOf('pakistan'));
+// neighbours[1] = 'Dubai';
 
+// console.log(neighbours);
+
+// neighbours[neighbours.indexOf('china')]= 'Chinese kungfu china';
+// console.log(neighbours);
